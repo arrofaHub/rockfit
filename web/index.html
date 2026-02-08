@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rockfit Federation Portal</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">R</div>
+          <div class="brand-text">
+            <div class="brand-title">Rockfit</div>
+            <div class="brand-subtitle">Federation Portal</div>
+          </div>
+        </div>
+        <nav class="nav">
+          <button class="nav-item active">National Dashboard</button>
+          <button class="nav-item">Talent Engine</button>
+          <button class="nav-item">Medical Oversight</button>
+          <button class="nav-item">Regional Analytics</button>
+          <button class="nav-item">Compliance</button>
+          <button class="nav-item">Reports</button>
+        </nav>
+        <div class="sidebar-footer">
+          <div class="profile">
+            <div class="avatar">SA</div>
+            <div>
+              <div class="profile-name">Sabbir Admin</div>
+              <div class="profile-role">Federation Operator</div>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <main class="content">
+        <header class="topbar">
+          <div>
+            <h1>National Performance Overview</h1>
+            <p>Live pipeline status across regions, academies, and national squads.</p>
+          </div>
+          <div class="topbar-actions">
+            <button class="ghost">Export PDF</button>
+            <button class="primary">Generate Report</button>
+          </div>
+        </header>
+
+        <section class="hero-cards">
+          <div class="hero-card gradient-a">
+            <div class="hero-title">Talent Pipeline</div>
+            <div class="hero-value">1,248</div>
+            <div class="hero-sub">Athletes tracked nationwide</div>
+            <div class="hero-foot">+8% this month</div>
+          </div>
+          <div class="hero-card gradient-b">
+            <div class="hero-title">High Potential</div>
+            <div class="hero-value">214</div>
+            <div class="hero-sub">U17–U21 prospects flagged</div>
+            <div class="hero-foot">Top 5% cohort</div>
+          </div>
+          <div class="hero-card gradient-c">
+            <div class="hero-title">Medical Alerts</div>
+            <div class="hero-value">37</div>
+            <div class="hero-sub">Active risk interventions</div>
+            <div class="hero-foot">12 critical</div>
+          </div>
+        </section>
+
+        <section class="grid">
+          <div class="panel wide">
+            <div class="panel-header">
+              <h2>Regional Performance Map</h2>
+              <span class="pill">Live feed</span>
+            </div>
+            <div class="map">
+              <div class="map-legend">
+                <div><span class="dot high"></span> High potential</div>
+                <div><span class="dot mid"></span> Emerging</div>
+                <div><span class="dot low"></span> Watchlist</div>
+              </div>
+              <div class="map-grid">
+                <div class="map-card">
+                  <h3>Riyadh</h3>
+                  <p>312 athletes · 52 high potential</p>
+                  <div class="bar"><span style="width:72%"></span></div>
+                </div>
+                <div class="map-card">
+                  <h3>Jeddah</h3>
+                  <p>274 athletes · 41 high potential</p>
+                  <div class="bar"><span style="width:61%"></span></div>
+                </div>
+                <div class="map-card">
+                  <h3>Dammam</h3>
+                  <p>198 athletes · 33 high potential</p>
+                  <div class="bar"><span style="width:54%"></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-header">
+              <h2>Injury Trend</h2>
+              <span class="pill warning">Alert</span>
+            </div>
+            <div class="trend">
+              <div class="trend-metric">
+                <span>Hamstring</span>
+                <strong>+12%</strong>
+              </div>
+              <div class="trend-metric">
+                <span>ACL risk</span>
+                <strong>-4%</strong>
+              </div>
+              <div class="trend-metric">
+                <span>Overtraining</span>
+                <strong>+9%</strong>
+              </div>
+              <div class="trend-bar"><span style="width:78%"></span></div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-header">
+              <h2>Top Prospects</h2>
+              <span class="pill">Elite</span>
+            </div>
+            <div class="list">
+              <div class="list-item">
+                <div>
+                  <strong>Fahad Al Qahtani</strong>
+                  <div class="muted">U19 · Football · Riyadh</div>
+                </div>
+                <span class="score">98</span>
+              </div>
+              <div class="list-item">
+                <div>
+                  <strong>Noura Al Otaibi</strong>
+                  <div class="muted">U18 · Sprint · Jeddah</div>
+                </div>
+                <span class="score">95</span>
+              </div>
+              <div class="list-item">
+                <div>
+                  <strong>Omar Al Harbi</strong>
+                  <div class="muted">U17 · Basketball · Dammam</div>
+                </div>
+                <span class="score">93</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-header">
+              <h2>Compliance Queue</h2>
+              <span class="pill neutral">IOC / FIFA</span>
+            </div>
+            <div class="list">
+              <div class="list-item">
+                <div>
+                  <strong>Medical clearance audit</strong>
+                  <div class="muted">12 athletes pending</div>
+                </div>
+                <span class="tag">Due 7d</span>
+              </div>
+              <div class="list-item">
+                <div>
+                  <strong>Nutrition protocol review</strong>
+                  <div class="muted">4 academies</div>
+                </div>
+                <span class="tag">Due 14d</span>
+              </div>
+              <div class="list-item">
+                <div>
+                  <strong>Injury reporting sync</strong>
+                  <div class="muted">2 regions missing</div>
+                </div>
+                <span class="tag warn">Due 3d</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

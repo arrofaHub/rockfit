@@ -1,0 +1,2 @@
+-- Minimal seed data (optional)
+
